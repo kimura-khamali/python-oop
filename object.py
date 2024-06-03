@@ -13,10 +13,27 @@ class Student:
       
       def year_of_birth(self):
         return f"{self.first_name}, you were born in {2024-self.age}"
-      
+      def full_name(self):
+          return f"My first name is {self.full_name}"
+      def initials(self):
+          return f"{self.full_name} {self.last_name} {self.age} {self.code} {self.country}"
+      def check_if_student_is_minor(self):
+          return Student
+      def enroll_student(self):
+          return f"This is the new student you need to invite {self.first_name} {self.last_name}"
+ 
 agnes = Student(first_name ="agnes", last_name = "Wangesha", age =21, country="Kenya", code = 79)
 faith = Student(first_name ="Faith", last_name = "Mutava", age =21, country="Kenya", code = 27)
 glory = Student(first_name ="Glory", last_name = "Wachira", age =21, country="Kenya", code = 2)
+
+
+
+
+"""Add these methods to class students.
+Method to show the full name
+Method to show the initials
+Methods to check if a student is a minor
+Method to enroll students in a class"""
 
 
 """>>> from object import Student
